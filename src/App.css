@@ -1,0 +1,107 @@
+/* App.css */
+body {
+  width: 90%;
+}
+
+.portfolio {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;    
+  background-color: rgb(246, 244, 244);
+  padding: 4%;
+  border-radius: 10px;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  width: 50%;
+  font-size: 3rem;
+  font-weight: Extra Bold;
+}
+
+.navbar-nav {
+  width: 40%;
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-nav ul {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.navbar-nav li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: rgb(223, 1, 219); /* Added color here for consistency */
+}
+
+/* Main */
+.main {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-picture {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.info {
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info span {
+  width: 100%;    
+  float: left;
+  display: block;
+  text-align: center;
+}
+
+.cursor-text {
+  background-color: #e9d3ff;
+  color: #b46dfc;
+}
+
+.target {
+  margin: 5% 0;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.actions p {
+  width: 30rem;
+  text-align: center;
+  margin: 10px auto;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+.actions button {
+  font-size: 20px;
+  background-color: #803ec3;
+  border-radius: 5px;
+  padding: 5px;
+  border: 0px solid #fcb06d;
+}
+
+.actions button:hover {
+  background-color: rgb(186, 226, 43);
+}
